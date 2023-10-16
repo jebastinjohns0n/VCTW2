@@ -1,0 +1,38 @@
+body {
+	margin: 0px;
+}
+
+.top-nav {
+	background-color: burlywood;
+	/* display: flex; */
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.nav-list {
+	margin: 0;
+	width: 60%;
+	/* display: flex; */
+	justify-content: space-evenly;
+}
+
+.list-items {
+	list-style: none;
+}
+
+.list-items a {
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.circle {
+	display: block;
+	content: '';
+	background-color: blue;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+}
